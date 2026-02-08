@@ -13,25 +13,25 @@ This is an **applied exploratory data analysis (EDA)** project with real-world, 
 ---
 
 ## 🎯 Project Objectives
-- 📊 Analyze website traffic across different channel groups  
-- 👥 Understand user behavior using **sessions** and **engagement rate**  
-- ✅ Compare **engaged vs non-engaged sessions**  
-- ⏰ Perform **hour-wise (time-based) traffic analysis**  
-- 📈 Visualize trends using Python libraries  
-- 💼 Generate actionable business insights  
+-  Analyze website traffic across different channel groups  
+-  Understand user behavior using **sessions** and **engagement rate**  
+-  Compare **engaged vs non-engaged sessions**  
+-  Perform **hour-wise (time-based) traffic analysis**  
+-  Visualize trends using Python libraries  
+-  Generate actionable business insights  
 
 ---
 
 ## 📂 Dataset & Code
 
-- 📁 **Dataset Used**:  
-  👉 [Website Analytics Dataset (CSV)](https://github.com/himanshujoshitech/Website-Performance-Engagement-Analysis-Using-Python-/blob/main/Raw_Data.csv)
+-  **Dataset Used**:  
+   [Website Analytics Dataset (CSV)](https://github.com/himanshujoshitech/Website-Performance-Engagement-Analysis-Using-Python-/blob/main/Raw_Data.csv)
 
-- 🐍 **Python / Jupyter Notebook**:  
-  👉 [Website Performance & Engagement Analysis Code](https://github.com/himanshujoshitech/Website-Performance-Engagement-Analysis-Using-Python-/blob/main/Website%20Performance%20%26%20Engagement%20Analysis%20Using%20Python%20Code.ipynb)
+-  **Python / Jupyter Notebook**:  
+   [Website Performance & Engagement Analysis Code](https://github.com/himanshujoshitech/Website-Performance-Engagement-Analysis-Using-Python-/blob/main/Website%20Performance%20%26%20Engagement%20Analysis%20Using%20Python%20Code.ipynb)
 
-- 👤 **Author**:  
-  👉 [Himanshu Joshi on LinkedIn](https://www.linkedin.com/in/himanshujoshitech/)
+-  **Author**:  
+   [Himanshu Joshi on LinkedIn](https://www.linkedin.com/in/himanshujoshitech/)
 
 ---
 
@@ -48,13 +48,13 @@ This is an **applied exploratory data analysis (EDA)** project with real-world, 
 ## 🧹 Data Cleaning & Feature Engineering
 Before analysis, the dataset was cleaned and prepared to ensure accuracy and consistency:
 
-- 🧼 Standardized column headers  
-- 🗑️ Removed redundant header rows  
-- 🕒 Converted `DateHour` to datetime format  
-- 🔢 Converted numeric columns safely using type coercion  
-- ⚠️ Handled missing and invalid values  
-- ⏰ Extracted `Hour` feature for time-based analysis  
-- ➕ Created **Non-Engaged Sessions** feature  
+-  Standardized column headers  
+-  Removed redundant header rows  
+-  Converted `DateHour` to datetime format  
+-  Converted numeric columns safely using type coercion  
+-  Handled missing and invalid values  
+-  Extracted `Hour` feature for time-based analysis  
+-  Created **Non-Engaged Sessions** feature  
 
 ---
 
