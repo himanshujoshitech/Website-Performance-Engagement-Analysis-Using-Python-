@@ -1,154 +1,153 @@
 # 📊 Website Performance & Engagement Analysis Using Python
 
-## 🚀 Project Overview
-This project focuses on analyzing website performance and user engagement using Python.  
-It aims to understand how users interact with a website by analyzing traffic volume, engagement quality, channel effectiveness, and time-based behavior through data analysis and visualization.
+<p align="center">
+  <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="500"/>
+</p>
 
-This is an **applied exploratory data analysis (EDA)** project with feature engineering and business-driven insights.
+## 🚀 Project Overview
+This project focuses on analyzing **website performance and user engagement** using Python.  
+The goal is to understand **traffic behavior, engagement quality, channel performance, and time-based trends** through data cleaning, feature engineering, exploratory data analysis, and visualization.
+
+This is an **applied exploratory data analysis (EDA) project** with real-world, business-focused insights.
 
 ---
 
 ## 🎯 Objectives
 - Analyze website traffic across different channel groups  
-- Understand user engagement using engagement rate and engaged sessions  
-- Compare engaged vs non-engaged sessions  
-- Perform time-based (hourly) traffic analysis  
-- Visualize patterns and trends using Python  
-- Derive actionable business insights  
+- Understand user behavior using **sessions** and **engagement rate**  
+- Compare **engaged vs non-engaged sessions**  
+- Perform **time-based (hourly) analysis**  
+- Visualize trends using Python libraries  
+- Derive **actionable business insights**
 
 ---
 
-## 📂 Dataset Description
-The dataset contains website analytics data recorded at a time (DateHour) and channel level.
+## 📂 Dataset & Code Links
 
-**Key Columns:**
-- Channel Group  
-- DateHour  
-- Users  
-- Sessions  
-- Engaged Sessions  
-- Engagement Rate  
-- Average Engagement Time per Session  
-- Events per Session  
+🔗 **Dataset Used (CSV)**  
+👉 [Raw Website Analytics Data](https://github.com/himanshujoshitech/Website-Performance-Engagement-Analysis-Using-Python-/blob/main/Raw_Data.csv)
+
+🐍 **Python / Jupyter Notebook Code**  
+👉 [Website Performance & Engagement Analysis Notebook](https://github.com/himanshujoshitech/Website-Performance-Engagement-Analysis-Using-Python-/blob/main/Website%20Performance%20%26%20Engagement%20Analysis%20Using%20Python%20Code.ipynb)
+
+👤 **Author LinkedIn**  
+👉 [Himanshu Joshi on LinkedIn](https://www.linkedin.com/in/himanshujoshitech/)
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## 🛠️ Tools & Technologies
 - 🐍 Python  
-- 📦 Pandas – data manipulation and analysis  
-- 🔢 NumPy – numerical operations  
-- 📊 Matplotlib – basic plotting  
-- 🎨 Seaborn – advanced statistical visualizations  
-- 📓 Jupyter Notebook – analysis environment  
+- 📦 Pandas  
+- 🔢 NumPy  
+- 📊 Matplotlib  
+- 🎨 Seaborn  
+- 📓 Jupyter Notebook  
 
 ---
 
-## 🧹 Data Cleaning & Preparation
-The following data preprocessing steps were performed:
+## 🧹 Data Cleaning & Feature Engineering
+The following steps were performed before analysis:
 
-- Fixed and standardized column headers  
+- Standardized column headers  
 - Removed redundant header rows  
 - Converted `DateHour` to datetime format  
 - Converted numeric columns using safe type coercion  
 - Handled missing and invalid values  
-- Extracted `Hour` feature from `DateHour` for time-based analysis  
+- Extracted `Hour` feature for time-based analysis  
+- Created **Non-Engaged Sessions** feature  
 
-These steps ensured the dataset was clean, consistent, and analysis-ready.
+These steps ensured clean, structured, and analysis-ready data.
 
 ---
 
 ## 🧠 Exploratory Data Analysis (EDA)
-Initial exploration was performed using:
-- `df.info()` to inspect data types and missing values  
-- `df.describe()` to analyze statistical distribution  
-
-EDA helped in understanding:
-- Variations in sessions and engagement  
-- Channel-wise behavior  
+EDA was performed to understand:
+- Distribution of sessions and engagement  
+- Channel-wise performance  
 - Time-based traffic patterns  
+- Variability and outliers in engagement rate  
+
+Functions like `df.info()` and `df.describe()` were used to explore data structure and statistics.
 
 ---
 
 ## 📈 Visual Analysis & Insights
 
 ### 🔹 Sessions and Users Over Time
-Line chart showing how website traffic evolves over time.
+![Sessions and Users Over Time](images/Sessions_and_Users_Over_Time.jpg)
 
-> Insight: Helps identify traffic trends and peak periods.
+📌 *Shows traffic trends and peak activity periods.*
 
 ---
 
 ### 🔹 Average Engagement Time by Channel
-Bar chart comparing engagement duration across channels.
+![Average Engagement Time by Channel](images/Average_Engagement_Time_by_Channel.jpg)
 
-> Insight: Highlights channels bringing more engaged users.
+📌 *Identifies channels bringing more engaged users.*
 
 ---
 
 ### 🔹 Engagement Rate Distribution by Channel
-Box plot visualizing distribution and outliers in engagement rate.
+![Engagement Rate Distribution](images/Engagement_Rate_Distribution_by_Channel.jpg)
 
-> Insight: Shows consistency and variability in engagement quality.
+📌 *Highlights variability and outliers in engagement behavior.*
 
 ---
 
 ### 🔹 Engaged vs Non-Engaged Sessions
-Bar chart comparing session quality across channels.
+![Engaged vs Non-Engaged Sessions](images/Engaged_vs_Non_Engaged_Sessions.jpg)
 
-> Insight: Identifies channels producing high non-engaged traffic.
+📌 *Compares session quality across channels.*
 
 ---
 
 ### 🔹 Traffic by Hour and Channel (Heatmap)
-Heatmap showing session intensity by hour and channel.
+![Traffic Heatmap](images/Traffic_by_Hour_and_Channel_Heatmap.jpg)
 
-> Insight: Reveals peak traffic and engagement hours.
+📌 *Reveals peak traffic hours for each channel.*
 
 ---
 
 ### 🔹 Engagement Rate vs Sessions Over Time
-Dual line chart comparing traffic quantity vs engagement quality.
+![Engagement Rate vs Sessions](images/Engagement_Rate_vs_Sessions_Over_Time.jpg)
 
-> Insight: Shows whether increased traffic leads to meaningful engagement.
+📌 *Analyzes the relationship between traffic quantity and engagement quality.*
 
 ---
 
 ## 📌 Key Findings
-- High traffic does not always mean high engagement  
-- Some channels generate fewer sessions but better engagement quality  
-- Engagement behavior varies significantly by hour  
-- A notable portion of sessions are non-engaged  
+- High traffic does not always imply high engagement  
+- Some channels generate fewer sessions but higher engagement quality  
+- Engagement varies significantly across hours  
+- A noticeable portion of sessions are non-engaged  
 - Time-based and channel-based analysis reveals optimization opportunities  
 
 ---
 
 ## 💡 Business Insights & Recommendations
-- Focus marketing efforts on channels with high engagement, not just high traffic  
-- Improve landing pages for channels with high non-engaged sessions  
-- Schedule campaigns during peak engagement hours  
-- Use data-driven insights to optimize user experience and traffic quality  
+- Focus marketing efforts on **high-engagement channels**, not just high traffic  
+- Optimize landing pages for channels with high non-engaged sessions  
+- Schedule campaigns during **peak engagement hours**  
+- Use engagement metrics to improve user experience and retention  
 
 ---
 
 ## ✅ Conclusion
-This project demonstrates how Python can be effectively used for website analytics.  
+This project demonstrates how Python can be used for **real-world website analytics**.  
 By combining data cleaning, feature engineering, exploratory analysis, and visualization, meaningful insights were derived from raw website data.
 
-The project showcases **real-world data analyst skills** and is suitable for:
-- Academic submission  
-- Portfolio projects  
-- Entry-level data analyst interviews  
+This project is suitable for:
+- 📚 Academic submission  
+- 📊 Data analytics portfolio  
+- 💼 Entry-level Data Analyst interviews  
 
 ---
 
-## 🙌 Author
+## 🙌 About the Author
 **Himanshu Joshi**  
 📍 India  
-📧 *Add email if you want*  
-🔗 *Add LinkedIn / Portfolio if available*
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/himanshujoshitech/)  
 
 ---
 
-⭐ If you found this project useful, feel free to star the repository!
-
-
+⭐ If you found this project useful, feel free to **star the repository** and connect on LinkedIn!
