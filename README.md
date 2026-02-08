@@ -1,14 +1,14 @@
 # 📊 Website Performance & Engagement Analysis Using Python
 
 <p align="center">
-  <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="500"/>
+  <img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="500"/>
 </p>
 
 ## 🚀 Project Overview
 This project focuses on analyzing **website performance and user engagement** using Python.  
 The goal is to understand **traffic behavior, engagement quality, channel performance, and time-based trends** through data cleaning, feature engineering, exploratory data analysis, and visualization.
 
-This is an **applied exploratory data analysis (EDA) project** with real-world, business-focused insights.
+This is an **applied exploratory data analysis (EDA)** project with real-world, business-focused insights.
 
 ---
 
@@ -25,13 +25,13 @@ This is an **applied exploratory data analysis (EDA) project** with real-world, 
 ## 📂 Dataset & Code Links
 
 🔗 **Dataset Used (CSV)**  
-👉 [Raw Website Analytics Data](https://github.com/himanshujoshitech/Website-Performance-Engagement-Analysis-Using-Python-/blob/main/Raw_Data.csv)
+👉 https://github.com/himanshujoshitech/Website-Performance-Engagement-Analysis-Using-Python-/blob/main/Raw_Data.csv  
 
 🐍 **Python / Jupyter Notebook Code**  
-👉 [Website Performance & Engagement Analysis Notebook](https://github.com/himanshujoshitech/Website-Performance-Engagement-Analysis-Using-Python-/blob/main/Website%20Performance%20%26%20Engagement%20Analysis%20Using%20Python%20Code.ipynb)
+👉 https://github.com/himanshujoshitech/Website-Performance-Engagement-Analysis-Using-Python-/blob/main/Website%20Performance%20%26%20Engagement%20Analysis%20Using%20Python%20Code.ipynb  
 
 👤 **Author LinkedIn**  
-👉 [Himanshu Joshi on LinkedIn](https://www.linkedin.com/in/himanshujoshitech/)
+👉 https://www.linkedin.com/in/himanshujoshitech/
 
 ---
 
@@ -56,8 +56,6 @@ The following steps were performed before analysis:
 - Extracted `Hour` feature for time-based analysis  
 - Created **Non-Engaged Sessions** feature  
 
-These steps ensured clean, structured, and analysis-ready data.
-
 ---
 
 ## 🧠 Exploratory Data Analysis (EDA)
@@ -67,8 +65,6 @@ EDA was performed to understand:
 - Time-based traffic patterns  
 - Variability and outliers in engagement rate  
 
-Functions like `df.info()` and `df.describe()` were used to explore data structure and statistics.
-
 ---
 
 ## 📈 Visual Analysis & Insights
@@ -76,7 +72,7 @@ Functions like `df.info()` and `df.describe()` were used to explore data structu
 ### 🔹 Sessions and Users Over Time
 ![Sessions and Users Over Time](images/Sessions_and_Users_Over_Time.jpg)
 
-📌 *Shows traffic trends and peak activity periods.*
+📌 *Shows overall traffic trends and peak activity periods.*
 
 ---
 
@@ -88,7 +84,7 @@ Functions like `df.info()` and `df.describe()` were used to explore data structu
 ---
 
 ### 🔹 Engagement Rate Distribution by Channel
-![Engagement Rate Distribution](images/Engagement_Rate_Distribution_by_Channel.jpg)
+![Engagement Rate Distribution by Channel](images/Engagement_Rate_Distribution_by_Channel.jpg)
 
 📌 *Highlights variability and outliers in engagement behavior.*
 
@@ -97,19 +93,19 @@ Functions like `df.info()` and `df.describe()` were used to explore data structu
 ### 🔹 Engaged vs Non-Engaged Sessions
 ![Engaged vs Non-Engaged Sessions](images/Engaged_vs_Non_Engaged_Sessions.jpg)
 
-📌 *Compares session quality across channels.*
+📌 *Compares session quality (engaged vs non-engaged) across channels.*
 
 ---
 
 ### 🔹 Traffic by Hour and Channel (Heatmap)
-![Traffic Heatmap](images/Traffic_by_Hour_and_Channel_Heatmap.jpg)
+![Traffic by Hour and Channel Heatmap](images/Traffic_by_Hour_and_Channel_Heatmap.jpg)
 
 📌 *Reveals peak traffic hours for each channel.*
 
 ---
 
 ### 🔹 Engagement Rate vs Sessions Over Time
-![Engagement Rate vs Sessions](images/Engagement_Rate_vs_Sessions_Over_Time.jpg)
+![Engagement Rate vs Sessions Over Time](images/Engagement_Rate_vs_Sessions_Over_Time.jpg)
 
 📌 *Analyzes the relationship between traffic quantity and engagement quality.*
 
@@ -136,17 +132,12 @@ Functions like `df.info()` and `df.describe()` were used to explore data structu
 This project demonstrates how Python can be used for **real-world website analytics**.  
 By combining data cleaning, feature engineering, exploratory analysis, and visualization, meaningful insights were derived from raw website data.
 
-This project is suitable for:
-- 📚 Academic submission  
-- 📊 Data analytics portfolio  
-- 💼 Entry-level Data Analyst interviews  
-
 ---
 
 ## 🙌 About the Author
 **Himanshu Joshi**  
 📍 India  
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/himanshujoshitech/)  
+🔗 https://www.linkedin.com/in/himanshujoshitech/
 
 ---
 
