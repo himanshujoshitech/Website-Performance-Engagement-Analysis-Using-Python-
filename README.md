@@ -114,19 +114,19 @@ Functions such as `df.info()` and `df.describe()` were used to understand data s
 ---
 
 ## 📌 Key Findings
-- 🚦 High traffic does not always result in high engagement  
-- 🎯 Some channels generate fewer users but higher engagement quality  
-- ⏰ User activity and engagement vary significantly by hour  
-- ⚠️ A noticeable portion of sessions are non-engaged  
-- 📊 Time-based and channel-based analysis reveals optimization opportunities  
+-  High traffic does not always result in high engagement  
+-  Some channels generate fewer users but higher engagement quality  
+-  User activity and engagement vary significantly by hour  
+-  A noticeable portion of sessions are non-engaged  
+-  Time-based and channel-based analysis reveals optimization opportunities  
 
 ---
 
-## 💡 Business Insights & Recommendations
-- 📢 Focus marketing efforts on **high-engagement channels**, not just high traffic  
-- 🛠️ Improve landing pages for channels with high non-engaged sessions  
-- ⏱️ Schedule campaigns during **peak engagement hours**  
-- 😊 Use engagement metrics to enhance user experience and retention  
+##  Business Insights & Recommendations
+-  Focus marketing efforts on **high-engagement channels**, not just high traffic  
+-  Improve landing pages for channels with high non-engaged sessions  
+-  Schedule campaigns during **peak engagement hours**  
+-  Use engagement metrics to enhance user experience and retention  
 
 ---
 
